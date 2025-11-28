@@ -1,6 +1,7 @@
 import time
 import location_data
 def startup():
+    quit = False
     while True:
         while True:
             name = input("What is your name? ")
@@ -102,8 +103,7 @@ def startup():
         time.sleep(1)
         print("Well, I suppose you'e off then! Good luck,", name +'!')
         print("** Whenever you see this symbol, it is the game confirming a sequence was successful. You can ignore this.")
-        break
-    return {"Name" : name, "Trainer" : trainer, "Trainer Location" : trainer_loc, "Specialty" : specialty}
+        return {"Name" : name, "Trainer" : trainer, "Trainer Location" : trainer_loc, "Specialty" : specialty}, quit
 
 def loc(location):
     def wdywtg():
