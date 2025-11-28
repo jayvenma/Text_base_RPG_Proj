@@ -6,6 +6,7 @@
 
 # PRIORITY LIST:
 # !!! Change character info to a dictionary.
+# !! response.lower() for all inputs.
 # 1. combat function
 # 2. inventory access
 # 3. currency tracking
@@ -41,13 +42,14 @@ while True:
     choice = input("Choose: ")
     if choice == '1':
         while True:
-            character[char_info],quit = r.startup()
-            char_state['location' : 'Market Square', 'last location' : 'Market Square', 'hp' : 10, 'max hp' : 10, 'lvl' : 1, 'xp' : 0]
+            char_info, quit = r.startup()
+            char_state.update({'location' : 'Market Square', 'last location' : 'Market Square', 'hp' : 10, 'max hp' : 10, 'lvl' : 1, 'xp' : 0})
             if quit == True:
                 break
-            with open(character[char_info]['Name'] + '.txt', 'w') as i:
+            with open(char_info['Name'] + '.txt', 'w') as i:
                 json.dump(character, i)
-        break    
+            break    
+        break
     elif choice == '2':
         file = input("What is the name of the character you would like to continue? ")
         try:
@@ -55,7 +57,7 @@ while True:
                 print("Character found!")
                 file = file + '.txt'
                 with open(file, 'r') as f:
-                    charcter = json.load(f)
+                    character = json.load(f)
                 break
         except FileNotFoundError:
             print("File not found, please try again")

@@ -1,0 +1,41 @@
+                                [ MYTHRINDOR CITY ]
+         -------------------------------------------------------------------------
+         |                 |                 |                 |                 |
+    [TAVERN]          [ARENA]      [WIZARD'S TOWER]        [RANGE]       [MARKET SQUARE]
+         -------------------------------------------------------------------------
+                                   |                  
+                              [CITY OUTER WALL]
+                                   |
+                          ======= MAIN ROAD =======
+                                   |
+                           [OLD WATCHTOWER]  <——— Offshoot A
+                                   |
+                           [WESTERN OUTSKIRTS]
+                                   |
+                           [ABANDONED FARM]
+                                   |
+                       -----------------------------
+                       |                           |
+            [WHISPERING WOODS]              [CRYSTAL GLADE]*  <— Offshoot B
+                       |                           |
+                [WOODSMAN'S HUT]*                  |
+                       |                           |
+                ======= MAIN ROAD CONTINUES =======
+                                   |
+                         [STONEBRIDGE CROSSING]
+                                   |
+                       -----------------------------
+                       |                           |
+                  [FOGMOOR MARSH]         [MARSH DEPTHS]*  <— Offshoot C
+                       |                           |
+                ======= MAIN ROAD CONTINUES =======
+                                   |
+                         [PILGRIM'S DESCENT]
+                                   |
+                           [CLIFFSIDE SHRINE]*  <— Offshoot D
+                                   |
+                           [BLACKMOND RIDGE]
+                                   |
+                           [GATE OF SYTHLINDOR]
+                                   |
+                            ▼ UNDERWORLD ▼
