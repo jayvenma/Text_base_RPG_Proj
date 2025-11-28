@@ -70,3 +70,4 @@ if quit == True:
 else:
     while True:
         print("Current Location:",char_state['location'])
+        print("CHANGES")
