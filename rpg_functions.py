@@ -1,5 +1,7 @@
 import time
 import location_data
+def invalid():
+    print("Invalid choice, please try again\n")
 def startup():
     quit = False
     while True:
@@ -103,7 +105,8 @@ def startup():
         time.sleep(1)
         print("Well, I suppose you'e off then! Good luck,", name +'!')
         print("** Whenever you see this symbol, it is the game confirming a sequence was successful. You can ignore this.")
-        return {"Name" : name, "Trainer" : trainer, "Trainer Location" : trainer_loc, "Specialty" : specialty}, quit
+        dictionary = {"Name" : name, "Trainer" : trainer, "Trainer Location" : trainer_loc, "Specialty" : specialty}
+        return dictionary, quit
 
 def loc(location):
     def wdywtg():
@@ -366,8 +369,6 @@ def loc(location):
                 invalid()
     return location, last_loc
 
-def actions():
-    return
 
 def inv():
     return
@@ -375,3 +376,5 @@ def inv():
 def combat():
     return
 
+def enemies():
+    return
